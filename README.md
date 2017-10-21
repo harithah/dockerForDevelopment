@@ -12,6 +12,6 @@ RUN 'docker-compose up -d –build' . This will do the bundle install and starts
 
 RUN 'docker-compose run app rake db:create'. This will create the db needed for the rails app.
 
-Launch localhost://3000 . This should launch the default rails page.
+Launch localhost:3000 . This should launch the default rails page.
 
-On editing anything in the application, there is no need to restart or relaunch the container. Just refrest the page to see the changes.
+On editing anything in the application, there is no need to restart or relaunch the container. Just refresh the page to see the changes.
